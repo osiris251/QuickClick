@@ -50,4 +50,17 @@ public class Target : MonoBehaviour
     {
         
     }
+
+    private void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("KillZone"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
