@@ -8,6 +8,8 @@ public class Target : MonoBehaviour
 
     private float minFoce = 14, maxForce = 18, torque = 10, xRange = 4, yRange = 6;
 
+    public ParticleSystem explosion;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,12 +50,13 @@ public class Target : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnMouseOver()
     {
-        Destroy(gameObject);
+        explosion.Play();
+        Destroy(gameObject,.25f);
     }
 
     private void OnTriggerEnter(Collider other)
