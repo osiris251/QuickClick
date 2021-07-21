@@ -37,11 +37,15 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOver;
     public Button restartButton;
 
-    // Start is called before the first frame update
-    void Start()
+    public GameObject titleScren;
+
+    /// <summary>
+    /// Metodo que inicia la partida
+    /// </summary>
+    public void StartGame()
     {
         gameStates = GameStates.inGame;
-
+        titleScren.SetActive(false);
         StartCoroutine(SpawnTarget());
 
         score = 0;
