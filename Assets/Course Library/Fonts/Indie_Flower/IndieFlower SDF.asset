@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hashCode: -1165128645
   material: {fileID: 21175996417216586}
-  materialHashCode: 1515307088
+  materialHashCode: 1334646075
   m_Version: 1.1.0
   m_SourceFontFileGUID: 1e2dedf0209f94b3a970377b23a013a9
   m_SourceFontFile_EditorRef: {fileID: 0}
@@ -28,7 +28,7 @@ MonoBehaviour:
     m_LineHeight: 110.875
     m_AscentLine: 73.75
     m_CapLine: 51.374996
-    m_MeanLine: 0
+    m_MeanLine: 29.562498
     m_Baseline: 0
     m_DescentLine: -37.125
     m_SuperscriptOffset: 73.75
@@ -1791,6 +1791,7 @@ MonoBehaviour:
   m_AtlasTextures:
   - {fileID: 28180459185675036}
   m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
   m_UsedGlyphRects: []
   m_FreeGlyphRects: []
   m_fontInfo:
@@ -1819,7 +1820,7 @@ MonoBehaviour:
   m_AtlasWidth: 512
   m_AtlasHeight: 512
   m_AtlasPadding: 5
-  m_AtlasRenderMode: 16426
+  m_AtlasRenderMode: 16422
   m_glyphInfoList:
   - id: 32
     x: 6
@@ -2884,6 +2885,8 @@ Texture2D:
   m_TextureFormat: 1
   m_MipCount: 1
   m_IsReadable: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_IsPreProcessed: 0
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_AlphaIsTransparency: 0

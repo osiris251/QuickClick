@@ -64,6 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Challenge 5\Scripts\DestroyObjectX.cs" />
+    <Compile Include="Assets\Challenge 5\Scripts\DifficultyButtonX.cs" />
+    <Compile Include="Assets\Challenge 5\Scripts\GameManagerX.cs" />
+    <Compile Include="Assets\Challenge 5\Scripts\TargetX.cs" />
     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
     <Compile Include="Assets\_Scripts\DifficultyButton.cs" />
     <Compile Include="Assets\_Scripts\FollowMouse.cs" />
@@ -76,7 +80,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Course Library\_Source_Files\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
     <None Include="Assets\Course Library\Fonts\Roboto_Condensed\LICENSE.txt" />
-    <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Course Library\Fonts\Baloo_Chettan\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -98,6 +101,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Users/osiri/Desktop/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
